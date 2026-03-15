@@ -38,12 +38,14 @@ export default function Navbar() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-18">
             <Link to="/" className="flex items-center gap-2 flex-shrink-0">
-              <img
-                src="/assets/uploads/ChatGPT_Image_Mar_4__2026__03_18_27_PM-removebg-preview-1.png"
-                alt="Grad-Gate Admissions"
-                style={{ height: "60px", width: "auto" }}
-                className="object-contain"
-              />
+              <div className="bg-white rounded px-1 py-0.5">
+                <img
+                  src="/assets/uploads/ChatGPT_Image_Mar_4__2026__03_18_27_PM-removebg-preview-1.png"
+                  alt="Grad-Gate Admissions"
+                  style={{ height: "52px", width: "auto" }}
+                  className="object-contain"
+                />
+              </div>
             </Link>
 
             <nav className="hidden lg:flex items-center gap-1">

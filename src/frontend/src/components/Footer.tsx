@@ -20,12 +20,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/assets/uploads/ChatGPT_Image_Mar_4__2026__03_18_27_PM-removebg-preview-1.png"
-                alt="Grad-Gate Admissions"
-                style={{ height: "48px", width: "auto" }}
-                className="object-contain"
-              />
+              <div className="bg-white rounded px-1 py-0.5">
+                <img
+                  src="/assets/uploads/ChatGPT_Image_Mar_4__2026__03_18_27_PM-removebg-preview-1.png"
+                  alt="Grad-Gate Admissions"
+                  style={{ height: "40px", width: "auto" }}
+                  className="object-contain"
+                />
+              </div>
             </div>
             <p className="text-white/60 text-sm font-body leading-relaxed mb-4">
               Your trusted gateway to India's top universities. Transparent,
